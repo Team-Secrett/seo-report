@@ -48,14 +48,14 @@ Estos motores previamente indexan los sitios recolectando información básica d
 
 La información recolectada es almacenada en una base de datos, lo cual facilita el acceso a ella de forma más directa a la hora de responder a una consulta, dicha base de datos es conocida como el \textbf{índice del motor de búsqueda} \cite{what_is_seo}.
 
-Todos los motores utilizan alguna métrica que permite definir la relevancia de determinado resultado con respecto a una consulta, por ejemplo, el algoritmo de Google se basa en una métrica denominada page rank \cite{pr}. Por lo que sitios con valores más altos de page rank tienden a aparecer más alto en la lista de resultados y por tanto obtienen más tráfico de usuarios.
+Todos los motores utilizan alguna métrica que permite definir la relevancia de determinado resultado con respecto a una consulta, por ejemplo, el algoritmo de Google se basa en una métrica denominada \textit{page rank} \cite{pr}. Por lo que sitios con valores más altos de \textit{page rank} tienden a aparecer más alto en la lista de resultados y por tanto obtienen más tráfico de usuarios.
 
 Es aquí donde surge la necesidad de aplicar SEO. Empresas y negocios puede obtener clientes de los usuarios del motor de búsqueda, dichos clientes tienen un costo de adquisición relativamente nulo.
 
 \section{Técnicas de SEO}
 Las técnicas a continuación son utilizadas para mejorar el ranking de un sitio ante los motores de búsqueda.
 
-\textbf{White-hat} SEO refiere al conjunto de técnicas que sigue las guías del motor de búsqueda, por tanto este no penaliza a los sitios webs que hacen su uso para obtener un mejor page rank.
+\textbf{White-hat} SEO refiere al conjunto de técnicas que sigue las guías del motor de búsqueda, por tanto este no penaliza a los sitios webs que hacen su uso para obtener un mejor posicionamiento.
 
 Entre estas técnicas se encuentran:
 \begin{itemize}
@@ -66,20 +66,20 @@ Entre estas técnicas se encuentran:
 
 Los aplicación de estas técnicas no tiende a incrementar de manera rápida el tráfico orgánico hacia un sitio web, esto sucede de forma paulatina, y ofrece la seguridad de que el motor no penalizara el ranking del sitio en un futuro.
 
-\textbf{Black-hat} SEO es el proceso opuesto a Black-hat SEO. Esta técnica no sigue las guías del navegador, por lo que puede obtener resultados mas eficientes en el ranking en con menor tiempo y esfuerzo, lo que puede causar que páginas con contenido de baja calidad ocupen buenos puestos en una consulta por el usuario. Pero el hecho de que esta practica viole las pautas de los motores de búsqueda, causa que en el futuro el sitio web sea penalizado y disminuya su ranking.
+\textbf{Black-hat} SEO es el proceso opuesto a White-hat SEO. Esta técnica no sigue las guías del motor, por lo que puede obtener resultados más eficientes en el ranking con menor tiempo y esfuerzo, lo que puede causar que páginas con contenido de baja calidad ocupen buenos puestos en una consulta. Pero el hecho de que esta práctica viole las pautas de los motores de búsqueda, causa que en el futuro el sitio web sea penalizado y disminuya su ranking.
 
 Entre este tipo de técnicas se incluye:
 
 \begin{itemize}
-    \item[•] Keyword stuffing.
+    \item[•] \textit{Keyword stuffing}.
     \item[•] Usar texto invisible al usuario en el contenido y no relacionado con el contenido del sitio para aumentar la densidad de palabras clave.
     \item[•] Granjas de enlaces, las cuales consisten en grupos de sitios los cuales se conectan unos a otros a traves de enlaces, lo cual incrementa la popularidad de estos.
-    \item[•] Cloaking, conocido como spamindex, es la técnica mediante la cual se le muestra a los bots que indexan la web contenido diferente al que se muestra en la página al usuario. De esta forma un sitio especifico puede salir ante una consulta no relacionada con su contenido.
+    \item[•] \textit{Cloaking}, conocido como \textit{spamindex}, es la técnica mediante la cual se le muestra a los bots que indexan la web contenido diferente al que se muestra en la página al usuario. De esta forma un sitio especifico puede salir ante una consulta no relacionada con su contenido.
 \end{itemize}
 
 Este tipo de acciones son perseguidas por los motores de búsqueda y detectadas con diferentes algoritmos. Si un sitio web es detectado como fraudolento, es penalizado en el ranking e incluso puede ser removido del indice.
 
-\textbf{Gray-hat} se encuentra en medio de los conjuntos anteriores, de tal manera son técnicas que pueden no crear mucho impacto en el ranking del sitio y aun asi estar bajo riesgo de penalización.
+\textbf{Gray-hat} se encuentra en medio de los conjuntos anteriores, de tal manera son técnicas que pueden no crear mucho impacto en el ranking del sitio y aun así estar bajo riesgo de penalización.
 
 \section{Ejemplo de Optimizaciones}
 Mostraremos interés en técnicas White-hat pues estas a pesar de tomar mas tiempo en ofrecer resultados, lo hacen de forma solida y mas segura para el sitio.
@@ -91,7 +91,7 @@ Existen dos tipos de SEO, \textbf{On Page SEO} y \textbf{Off Page SEO}, las prim
 \begin{itemize}
 \item \textbf{Contenido}
 
-Entre el 65\% - 75\% del contenido de la página web debe ser único y de alta calidad, además, la relación entre texto y HTML debe estar entre 25\% - 75\%. Los crawlers de los motores de búsqueda visitan el sitio y crean una copia del contenido en su base de datos, si encuentran otra página web con el mismo contenido, entonces esta es penalizada.
+Entre el 65 - 75\% del contenido de la página web debe ser único y de alta calidad, además, la relación entre texto y HTML debe estar entre 25 - 75\%. Los \textit{crawlers} de los motores de búsqueda visitan el sitio y crean una copia del contenido en su base de datos, si encuentran otra página web con el mismo contenido, entonces esta es penalizada.
 
 \item \textbf{Investigación de palabras claves}
 
@@ -113,7 +113,7 @@ Ejemplo:
 
 \item \textbf{Etiquetas} \verb+alt+
 
-La etiqueta \verb+alt+ es de gran importancia pues esta describe al motor de búsqueda el contenido detrás de una imagen. Este es el texto que aparece cuando se mueve el cursor sobre una imagen en el navegador. También son usadas por los lectores de pantalla para mejorar la accesibilidad.
+La etiqueta \verb+alt+ es de gran importancia pues esta describe al motor de búsqueda el contenido detrás de una imagen. También son usadas por los lectores de pantalla para mejorar la accesibilidad.
 
 Ejemplo:
 \begin{lstlisting}
@@ -133,6 +133,7 @@ Ejemplo:
 <head>
     <meta charset="UTF-8">
     <title>Brandon's Baseball Cards - Buy Cards, Baseball News, Card Prices</title>
+    <meta name="keywords" content="baseball, cards, sale">
     <meta name="description" content="Brandon's Baseball Cards provides a large selection of vintage and modern baseball cards for sale. We also offer daily baseball news and events.">
     <meta name="author" content="John Doe">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -141,7 +142,7 @@ Ejemplo:
 
 \item \textbf{Etiquetas} \verb+meta+  \textbf{para robots} \cite{meta_robots}
 
-Esta etiqueta indica como debe ser indexada y servida a los usuarios en una consulta determinada página. Permite controlar que contenido se indexa y cual no en un sitio web.
+Esta etiqueta indica como debe ser indexada y servida a los usuarios en una consulta determinada página. Permite controlar que contenido se indexa en un sitio web.
 
 Ejemplo:
 \begin{lstlisting}
@@ -155,13 +156,13 @@ Ejemplo:
 
 Google usa estos datos para comprender mejor el contenido de una página. Cuando se muestran resultados a una búsqueda estos datos se usan para ofrecer información adicional, lo que puede atraer más tráfico al sitio.
 
-Por ejemplo, si se tiene un e-commerce cada producto puede tener como datos estructurados la calificación cantidad de comentarios, el precio, etc. A la hora del motor de búsqueda responder a una consulta con con uno de los productos, estos datos son utilizados para enriquecer el resultado.
+Por ejemplo, si se tiene un \textit{e-commerce} cada producto puede tener como datos estructurados la calificación cantidad de comentarios, el precio, etc. A la hora del motor de búsqueda responder a una consulta con con uno de los productos, estos datos son utilizados para enriquecer el resultado.
 
-Como punto adicional, estos tienen mayor relevancia en las consultas realizadas pues los usuarios pues pueden buscar productos por estos parámetros.
+Como punto adicional, estos tienen mayor relevancia en las consultas realizadas pues los usuarios pueden buscar productos por estos parámetros.
 
-\item \verb+https+ \textbf{por encima} \verb+http+
+\item \verb+https+ \textbf{por encima de} \verb+http+
 
-Los motores de búsqueda exhortan a los sitios a usar \verb+https+ dado que ofrece más seguridad a los usuarios que acceden a los sitios.
+Los motores de búsqueda exhortan a los sitios a usar \verb+https+ dado que ofrece más seguridad a los usuarios que acceden a ellos.
 
 \item \textbf{Enlaces internos}
 
@@ -172,11 +173,11 @@ Ejemplo:
 <a href="http://www.same-domain.com/" title="Keyword Text">Keyword Text</a>    
 \end{lstlisting}
 
-En ocasiones es recomendable que se indiquen enlaces con el parámetro \verb+rel=nofollow+, de tal forma que los motores no procesen el contenido que tienen. Por ejemplo, sucede cuando estos enlaces llevan a contenido (no confiable) compartido por los usuario y que puede reflejar la mala calidad en el sitio.
+En ocasiones es recomendable que se indiquen enlaces con el parámetro \verb+rel=nofollow+, de tal forma que los motores no procesen el contenido que tienen. Por ejemplo, sucede cuando estos enlaces llevan a contenido (no confiable) compartido por los usuarios y que puede reflejar la mala calidad en el sitio.
 
 \item \textbf{Mapas del sitio} \cite{sitemaps}
 
-A pesar de que un sitio web puede ser rastreado e indexado sin usar sitemaps y usar uno no mejora la posición en el ranking, este hace mas sencillo para los motores indexar el sitio. Es recomendado para indexar páginas que hayan quedado fuera de los enlaces internos del sitio o que sean difíciles de encontrar. Ademas permiten encontrar información importante sobre imágenes y videos que es inaccesible a los crawlers.
+A pesar de que un sitio web puede ser rastreado e indexado sin usar \textit{sitemaps} y usar uno no mejora la posición en el ranking, estos hacen más sencillo para los motores indexar el sitio. Es recomendado para indexar páginas que hayan quedado fuera de los enlaces internos del sitio o que sean difíciles de encontrar. Además, permiten encontrar información importante sobre imágenes y videos que es inaccesible a los \textit{crawlers}.
 
 Example:
 \lstset{language=XML}
@@ -212,11 +213,11 @@ Motivo de esto es que la gran mayoría de los usuarios realizan las consultas de
 
 Estos son los enlaces en otros sitios webs que apuntan al sitio de interés, los cuales permiten determinar al motor de búsqueda determinar si el sitio es relevante o no.
 
-Que un sitio web tenga más backlinks que otro no significa que este último vaya a posicionarse por debajo en el ranking pues si los enlaces de este son de mayor calidad puede ser mas relevante para el ranking \cite{imp_seo}.
+Que un sitio web tenga más \textit{backlinks} que otro no significa que este último vaya a posicionarse por debajo en el ranking pues si los enlaces de este son de mayor calidad puede ser mas relevante para el ranking \cite{imp_seo}.
 
 \item \textbf{Redes sociales}
 
-Las redes sociales juegan un papel vital a la hora de traer nuevos visitantes a sitios webs, además muchas de ellas soportan "follow links" los cuales generan backlinks de alta calidad.
+Las redes sociales juegan un papel vital a la hora de traer nuevos visitantes a sitios webs, además muchas de ellas soportan "follow links" los cuales generan \textit{backlinks} de alta calidad.
 
 \item \textbf{Búsqueda local}
 
@@ -268,7 +269,7 @@ Vale la pena destacar que Google es el principal motor de búsqueda de acuerdo a
 
 \item \textbf{Mobilegeddon 2.0 [marzo del 2016]}: Siguiendo las pautas de la anterior se daría un impulso aun mayor a los sitios optimizados a dispositivos móviles. \cite{mobilgeddon2}
 
-\item \textbf{Fred [mayo del 2017]:} Esta actualización estuvo enfocada en penalizar sitios percibidos como resultados de baja calidad, ya sea por tener poco contenido o por mostrar demasiados anuncios. Muchos sitios fueron afectados pore sta actualización, algunos vieron su tráfico disminuir un 50 - 90\%. \cite{fred}
+\item \textbf{Fred [mayo del 2017]:} Esta actualización estuvo enfocada en penalizar sitios percibidos como resultados de baja calidad, ya sea por tener poco contenido o por mostrar demasiados anuncios. Muchos sitios fueron afectados por esta actualización, algunos vieron su tráfico disminuir un 50 - 90\%. \cite{fred}
 
 \end{itemize}
 
